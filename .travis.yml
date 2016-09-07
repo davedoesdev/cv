@@ -2,3 +2,14 @@ language: ruby
 rvm: 2.3.1
 install: gem install asciidoctor-pdf --pre
 script: make
+deploy:
+  provider: releases
+  api_key:
+    secure: ptON2F+9wMcWC32XbDwh2GKG/67ilR1PdFDOPqDhlx3wdiMqLbrJ4UGUbjUVvsr9i9H5HX1SPbSUcyHDvR0BH08KPwvY8vS//kHyuTonPKblzRTqUI9YUKAR6nSKup2GYDdF5FfesV5l8A81Yu59MSgOUTR0M234xdQOPVpmbuhY5NMnz9RU2REZioqBoyTreNY2RhJox+FarkFaeoS/E603ZJlee3Ui+5RR0C8rZmDtcnJaylwo7G28afFeVCLBHjXPB54DeivaPdWQCalhbHzCLCLcHWI+cZNU4fskIngtgCiwdDcw0FBR0dnykYyAeEI0NFGwg/9+JDoeit62knK/pRtMrUlQE+cwNYTypm5WP5F7HykRmEwjQbCicAJ+/RHP6F1fu86UHVbxYk1jTVddXhd7/pYlcM02gOXCe7hQK6cqHJMgfo55ea+KvBJobN0sSfNVI3y+SHN9rm8uH7Fm2ypU9IePt+4ozVHfRxK8tX9WaiXDtQws588Fql749CTZYZaalohtVDrd58yYK1DKOTuxx81PsXGElvqN+RxWamlb0358g2TozRwEGpr/pKsOP9Rvicg503xRjBElyCRmJ6fVCYyCywU52w+JWY3Uvi+I6lVh5ZOym1Sp2HXjrmdVp3uZ452DXRaRMu7bTQkGrom9OV0u4+J/eTf2W2o=
+  file:
+    - cv.pdf
+    - cv.html
+  skip_cleanup: true
+  on:
+    tags: true
+    repo: davedoesdev/cv
