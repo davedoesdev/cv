@@ -1,12 +1,23 @@
-= David Halls
-dahalls@gmail.com
+:authors: dahalls@gmail.com
+:doctitle: David Halls
 :nofooter:
+ifdef::backend-pdf[]
+:notitle:
+[discrete]
+= {doctitle}
+endif::[]
+
+{authors}
+
+ifdef::backend-pdf[]
+:show-link-uri:
+endif::[]
 
 == Employment
 
 Member of Technical Staff at Bromium::
   _September 2012 - Present_ +
-Bromium uses micro-virtualisation to make endpoints trustworthy. I designed and 
+Bromium uses micro-virtualisation to make endpoints trustworthy. I designed and
 implemented the following features: +
 +
   * Site-to-VM placement logic
@@ -16,8 +27,8 @@ implemented the following features: +
   * DOM storage
   * Download
 +
-Plus I wrote unit tests, fixed bugs and solved customer issues.
-Most of this work was in C/C++ on Windows.
+I also wrote unit tests, fixed bugs and solved customer issues.
+Most of this work has been in C and C++ on Windows.
 
 Senior Software Engineer at Citrix::
  _June 2009 - September 2012_ +
@@ -32,8 +43,7 @@ Most of this work was in C on Linux.
 
 Research Engineer at Citrix::
 _February 1999 - June 2009_ +
-I started out researching new Web-based products and then moved onto adding
-new features to core product: +
+Iniitially I worked on new Web-based products and then moved onto core product: +
 +
   * Implemented single sign-on to Citrix XenApp. This involved writing Windows logon components (GINA, credential provider, authentication package) and an ICA virtual channel.
   * Extended this to allow federated authentication to XenApp (using Microsoft ADFS).
@@ -44,7 +54,7 @@ new features to core product: +
   * Carried out applied research into using server-based computing with dynamic HTML and mobile applications.
   * Worked on patent applications, 6 of which were issued.
 +
-This work was initially in Javascript and C#, then C/C++ on Windows.
+This work was initially in Javascript and C#, then C and C++ on Windows.
 
 Research Engineer at Persimmon IT::
 _October 1997 - February 1999_ +
@@ -60,18 +70,16 @@ processing code.
 
 == Open Source
 
-I've written and maintain a number of open source projects in these general
-areas:
+I've written a number of open source projects in the following general areas:
 
 * Message routing and queueing
 * Authentication, authorisation and cryptography
 * Data transfer
 * Linux distribution from scratch
 
-Most of this work is in Javascript and Python.
-
-I've also contributed to a wide range of other projects including Node.js core,
-unikernels and a number of Node.js and Python modules.
+Most of this work is in Javascript and Python. I've also contributed to a wide
+range of other projects including Node.js core, unikernels and a number of
+Node.js and Python modules.
 
 Please see my https://github.com/davedoesdev[Github profile].
 
