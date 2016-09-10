@@ -36,14 +36,14 @@ I moved to a new project within Citrix, XenClient (a client hypervisor): +
 +
   * Implemented device and user authentication.
   * Added support for Active Directory users to XenClient Synchronizer (the server with which the client hypervisor communicates).
-  * General troubleshooting for this fast-moving project.
   * Investigated how best to integrate XenClient with other Citrix products.
+  * General troubleshooting and bug fixing.
 +
 Most of this work was in C on Linux.
 
 Research Engineer at Citrix::
 _February 1999 - June 2009_ +
-Iniitially I worked on new Web-based products and then moved onto core product: +
+Initially, I worked on new Web-based products and then moved onto core product: +
 +
   * Implemented single sign-on to Citrix XenApp. This involved writing Windows logon components (GINA, credential provider, authentication package) and an ICA virtual channel.
   * Extended this to allow federated authentication to XenApp (using Microsoft ADFS).
