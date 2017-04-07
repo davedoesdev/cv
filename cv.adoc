@@ -26,6 +26,7 @@ implemented the following features: +
   * Intranet detection
   * DOM storage
   * Download
+  * Third-party integration
 +
 I also wrote unit tests, fixed bugs and solved customer issues.
 Most of this work has been in C and C++ on Windows.
