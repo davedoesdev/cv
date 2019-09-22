@@ -27,13 +27,14 @@ implemented the following features: +
   * DOM storage
   * Download
   * Third-party integration
+  * Browser extension
 +
 I also wrote unit tests, fixed bugs and solved customer issues.
 Most of this work has been in C and C++ on Windows.
 
 Senior Software Engineer at Citrix::
  _June 2009 - September 2012_ +
-I moved to a new project within Citrix, XenClient (a client hypervisor): +
+I moved to a new project within Citrix -- XenClient (a client hypervisor): +
 +
   * Implemented device and user authentication.
   * Added support for Active Directory users to XenClient Synchronizer (the server with which the client hypervisor communicates).
@@ -49,7 +50,7 @@ Initially, I worked on new Web-based products and then moved onto core product: 
   * Implemented single sign-on to Citrix XenApp. This involved writing Windows logon components (GINA, credential provider, authentication package) and an ICA virtual channel.
   * Extended this to allow federated authentication to XenApp (using Microsoft ADFS).
   * Implemented a portable, simple WS-Federation security token service.
-  * Prototyped cloud-based desktops, running on Amazon EC2 and brokered with Citrix software.
+  * Prototyped cloud-based desktops on Amazon EC2, brokered with Citrix software.
   * Enhanced Citrix Password Manager so it can run from a removable device.
   * Prototyped Web service versions of XenApp server components.
   * Carried out applied research into using server-based computing with dynamic HTML and mobile applications.
@@ -76,6 +77,8 @@ I've written a number of open source projects in the following general areas:
 * Message routing and queueing
 * Authentication, authorisation and cryptography
 * Data transfer
+* Low-power radio
+* Scheme interpreters
 * Linux distribution from scratch
 
 Most of this work is in Javascript and Python. I've also contributed to a wide
@@ -87,12 +90,10 @@ Please see my https://github.com/davedoesdev[Github profile].
 == Education
 
 PhD in Computer Science::
-  _University of Cambridge, 1994 - 1997_ +
-  3 publications
+  _University of Cambridge, 1994 - 1997_ (3 publications)
 
 BSc First Class Hons in Computer Science::
-  _University of Southampton, 1990 - 1994_ +
-  4 prizes
+  _University of Southampton, 1990 - 1994_ (4 prizes)
 
 A Levels in Maths (A), Physics (A) and English \(C)::
   _Tideway Comprehensive, 1988 - 1990_
