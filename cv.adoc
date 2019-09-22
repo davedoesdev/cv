@@ -16,7 +16,7 @@ endif::[]
 == Employment
 
 Member of Technical Staff at Bromium::
-  _September 2012 - Present_ +
+_September 2012 - Present_ +
 Bromium uses micro-virtualisation to make endpoints trustworthy. I designed and
 implemented the following features: +
 +
@@ -30,10 +30,11 @@ implemented the following features: +
   * Browser extension
 +
 I also wrote unit tests, fixed bugs and solved customer issues.
-Most of this work has been in C and C++ on Windows.
+Most of this work has been in C and C++ on Windows, along with some Python,
+JavaScript and TypeScript.
 
 Senior Software Engineer at Citrix::
- _June 2009 - September 2012_ +
+_June 2009 - September 2012_ +
 I moved to a new project within Citrix -- XenClient (a client hypervisor): +
 +
   * Implemented device and user authentication.
@@ -41,7 +42,7 @@ I moved to a new project within Citrix -- XenClient (a client hypervisor): +
   * Investigated how best to integrate XenClient with other Citrix products.
   * General troubleshooting and bug fixing.
 +
-Most of this work was in C on Linux.
+Most of this work was in C on Linux, along with some Python.
 
 Research Engineer at Citrix::
 _February 1999 - June 2009_ +
@@ -90,10 +91,10 @@ Please see my https://github.com/davedoesdev[Github profile].
 == Education
 
 PhD in Computer Science::
-  _University of Cambridge, 1994 - 1997_ (3 publications)
+_University of Cambridge, 1994 - 1997_ (3 publications)
 
 BSc First Class Hons in Computer Science::
-  _University of Southampton, 1990 - 1994_ (4 prizes)
+_University of Southampton, 1990 - 1994_ (4 prizes)
 
 A Levels in Maths (A), Physics (A) and English \(C)::
-  _Tideway Comprehensive, 1988 - 1990_
+_Tideway Comprehensive, 1988 - 1990_
