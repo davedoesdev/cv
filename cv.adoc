@@ -1,5 +1,5 @@
-:authors: dahalls@gmail.com
 :doctitle: David Halls
+:authors: dahalls@gmail.com
 :nofooter:
 ifdef::backend-pdf[]
 :notitle:
@@ -32,7 +32,7 @@ implemented the following features: +
 +
 I also wrote unit tests, fixed bugs and solved customer issues.
 Most of this work has been in C and C++ on Windows, along with some Python,
-JavaScript and TypeScript.
+JavaScript, TypeScript and Linux.
 
 Senior Software Engineer at Citrix::
 _June 2009 - September 2012_ +
