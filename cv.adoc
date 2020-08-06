@@ -15,8 +15,16 @@ endif::[]
 
 == Employment
 
+Software Engineer at HP Inc.::
+_May 2020 - Present_ +
++
+I'm working on secure remote access.
++
+  * Device enrolment
+  * Digital signatures
+
 Member of Technical Staff at Bromium::
-_September 2012 - Present_ +
+_September 2012 - May 2020_ +
 +
 Bromium uses micro-virtualisation to make endpoints trustworthy. I designed and
 implemented the following features: +
