@@ -22,11 +22,12 @@ I'm working on secure remote access.
 +
   * Device enrolment
   * Digital signatures
+  * Windows kernel driver
 
 Member of Technical Staff at Bromium::
 _September 2012 - May 2020_ +
 +
-Bromium uses micro-virtualisation to make endpoints trustworthy. I designed and
+Bromium used micro-virtualisation to make endpoints trustworthy. I designed and
 implemented the following features: +
 +
   * Site-to-VM placement logic
@@ -94,6 +95,7 @@ I've written a number of open source projects in the following general areas:
 * Low-power radio
 * Scheme interpreters
 * Linux distribution from scratch
+* Audio and video streaming
 
 Most of this work is in Javascript and Python. I've also contributed to a wide
 range of other projects including Node.js core, unikernels and a number of

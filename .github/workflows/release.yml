@@ -1,0 +1,23 @@
+iname: release
+
+on: [push, pull_request]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Use Ruby
+        uses: actions/setup-ruby~v1
+        with:
+          ruby-version: 2.7
+
+      - name: Install gems
+        run: gem install asciidoctor-pdf
+
+      - name: Build
+        run: make
+
