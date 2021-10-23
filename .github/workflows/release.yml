@@ -1,4 +1,4 @@
-iname: release
+name: release
 
 on: [push, pull_request]
 
